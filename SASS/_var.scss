@@ -1,0 +1,20 @@
+$pc-width: 1170px; //pc寬度
+$pad-width: 768px; //pad寬度
+$phone-width: 560px; //phone寬度
+$rwd-btn-size: 48px; //RWD 手機側欄按鈕大小
+
+
+$base-font-style: Arial,
+'微軟正黑體',
+'Helvetica Neue',
+Helvetica,
+sans-serif,
+'新細明體';
+
+$media: ( 
+    'center': 'screen and (max-width: #{$pc-width})', 
+    'pc': 'screen and (max-width: #{$pc-width}) and (min-width: #{$pad-width + 1})', 
+    'mobile': 'screen and (max-width: #{$pad-width})', 
+    'pad': 'screen and (max-width: #{$pad-width}) and (min-width: #{$phone-width + 1})', 
+    'phone': 'screen and (max-width: #{$phone-width})'
+    );

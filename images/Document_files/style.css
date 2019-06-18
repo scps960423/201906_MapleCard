@@ -1,0 +1,76 @@
+body {
+  background: url(../images/81744.jpg) no-repeat;
+  background-position: fixed;
+  background-size: cover;
+}
+
+.frame {
+  max-width: 700px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.groupCard {
+  padding: 20px 0;
+}
+.groupCard > .in {
+  background: #ffffff;
+  box-shadow: 0 0 10px #888888;
+}
+.groupCard .mdBanner {
+  background: url(/images/Header_SocialMedia_2.svg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+.groupCard .mdTitle {
+  text-align: center;
+  background: #f9b19c;
+  color: #ffffff;
+  padding: 10px 0;
+}
+.groupCard .mdTitle h3 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+.groupCard .mdTitle span {
+  margin: 5px 0;
+  display: block;
+}
+.groupCard .mdList li {
+  border-top: 1px solid #cccccc;
+}
+.groupCard .mdList li a {
+  transition: 150ms;
+  color: #343434;
+  text-decoration: none;
+  display: block;
+  padding: 20px 20px;
+}
+.groupCard .mdList li a:hover {
+  background: #f0f0f0;
+}
+.groupCard .mdList li a .img {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  background: #0d65ca url(/images/facebook-letter-logo.png) no-repeat;
+  background-size: 70%;
+  border-radius: 50%;
+  background-position: center;
+}
+.groupCard .mdList li a .p {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 10px;
+}
+.groupCard .mdList li a .p span {
+  display: block;
+}
+.groupCard .mdList li.line .img {
+  background: #0d65ca url(/images/line.png) no-repeat;
+}
+
+/*# sourceMappingURL=style.css.map */

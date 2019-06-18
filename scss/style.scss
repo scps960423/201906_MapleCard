@@ -1,0 +1,111 @@
+@import 'var';
+@import 'function';
+
+body {
+  background: url(../images/81744.jpg) no-repeat;
+  background-position: fixed;
+  background-size: cover;
+}
+
+.frame{
+  max-width: 700px;
+  margin: 0 auto;
+  height: 100vh;
+
+}
+.groupCard{
+  
+  
+  // height: 80vh;
+  // margin: 20px 0;
+  padding: 20px 0;
+  @include media('phone'){
+    padding: 0;
+   
+  }
+  >.in{
+    background: $white;
+    box-shadow:0 0 10px #888888;; 
+    @include media('phone'){
+  
+    height: 100vh;
+  }
+  }
+  .mdBanner{
+    background: url(/images/Header_SocialMedia_2.svg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    // border-bottom: 1px solid #cccccc;
+   
+  }
+   .mdTitle{
+      text-align: center;
+      background: #f9b19c;
+      color: $white;
+      padding: 10px 0;
+      h3{
+        font-size: 1.5em;
+        margin: 10px 0;
+      }
+      span{
+        margin: 5px 0;
+        display: block;
+      }
+    }
+    .mdList{
+      li{
+        
+        border-top: 1px solid #cccccc;
+        a{
+          transition: $transition;
+          color: $deep;
+          text-decoration: none;
+          display: block;
+          padding: 20px 20px;
+          &:hover{
+            background: $light;
+          }
+          .img{
+            height: 50px;
+            width: 50px;
+            display: inline-block;
+            vertical-align: middle;
+            background: #0d65ca url(/images/facebook-letter-logo.png) no-repeat;
+            background-size: 70%;
+            border-radius: 50%;
+            background-position: center;
+          } 
+          
+          .p{
+            display: inline-block;
+            vertical-align: middle;
+            padding: 0  10px;
+            
+            span{
+              display: block;
+              color: $gray;
+              &:nth-child(1){
+font-size: 1.1em;
+              color: $deep;
+              margin: 5px 0;
+              }
+            }
+          }
+        }
+        &.line{
+            .img{
+              background: url(/images/line.png) no-repeat;
+              background-size: 100%;
+            }
+          }
+          &.blog{
+            .img{
+              background: url(/images/cropped-.png) no-repeat;
+              background-size: 100%;
+            }
+          }
+      }
+    }
+}

@@ -1,0 +1,8 @@
+	@mixin media($key) {
+	  //查詢瀏覽器媒體，給 rwd 用，$key 為 $media 的 key
+
+	    @media #{map-get( $media, $key )} {
+	      @content;
+	    }
+	  
+	}

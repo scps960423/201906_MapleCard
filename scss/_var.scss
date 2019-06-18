@@ -1,0 +1,15 @@
+$white: #ffffff; //白色
+$light: #f0f0f0; //淺色
+$light-gray: #e4e4e4; //淺灰
+$gray: #b6b6b6; //灰色
+$deep-gray: #646464; //深灰
+$deep: #343434; //深色
+$black: #1a1a1a; //黑色
+//--------
+$pc-width: 1000px; //pc寬度
+$pad-width: 768px; //pad寬度
+$phone-width: 560px; //phone寬度
+//---------
+$transition: 150ms;
+//瀏覽器媒體，給 rwd 用================================================================
+$media: ('center': 'screen and (max-width: #{$pc-width})', 'pc': 'screen and (max-width: #{$pc-width}) and (min-width: #{$pad-width + 1})', 'mobile': 'screen and (max-width: #{$pad-width})', 'pad': 'screen and (max-width: #{$pad-width}) and (min-width: #{$phone-width + 1})', 'phone': 'screen and (max-width: #{$phone-width})');

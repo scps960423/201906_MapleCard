@@ -1,0 +1,5 @@
+@mixin rwd-media($key) {
+    @media #{map-get( $media, $key )} {
+      @content;
+    }
+  }

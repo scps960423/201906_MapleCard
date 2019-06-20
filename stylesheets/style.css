@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* line 4, ../sass/style.scss */
+body {
+  width: 100vw;
+  background-size: cover;
+  font-family: Arial, "微軟正黑體", "Helvetica Neue", Helvetica, sans-serif, "新細明體";
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+}
+/* line 15, ../sass/style.scss */
+body::before {
+  background: rgba(0, 0, 0, 0.5) url(/images/Header_SocialMedia_2.svg) 0/cover fixed;
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  filter: blur(5px);
+  height: 100%;
+}
+
+/* line 28, ../sass/style.scss */
+.groupCard {
+  max-width: 1000px;
+  margin: 0 auto;
+}
